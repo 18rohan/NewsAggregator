@@ -1,0 +1,167 @@
+ <div class="hero-area">
+        <!-- Hero Post Slides -->
+        <div class="hero-post-slides owl-carousel">
+
+            <!-- Single Slide -->
+            <div class="single-slide">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- Single Blog Post Area -->
+                        <div class="col-12 col-md-6">
+                            <div class="single-blog-post style-1" data-animation="fadeInUpBig" data-delay="100ms" data-duration="1000ms">
+                                <!-- Blog Thumbnail -->
+                                <div class="blog-thumbnail bg-overlay">
+                                    {% for image in images %}
+                                    {% if forloop.first %}
+                                    <a href="#"><img src={{image}} alt=""></a>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+
+                                <!-- Blog Content -->
+                                <div class="blog-content">
+                                    {% for headline in headlines %}
+                                    {% if forloop.first %}
+                                    <span class="post-date">June 20, 2018</span>
+                                    <a href="#" class="post-title">{{headline}}</a>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <!-- Single Blog Post Area -->
+                            <div class="single-blog-post style-1 mb-30" data-animation="fadeInUpBig" data-delay="300ms" data-duration="1000ms">
+                                <!-- Blog Thumbnail -->
+                                <div class="blog-thumbnail bg-overlay">
+                                    {% for image in images %}
+                                    {% if forloop.counter0 == 2 %}
+                                    <a href="#"><img src={{image}} alt=""></a>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+
+                                <!-- Blog Content -->
+                                <div class="blog-content">
+                                    {% for headline in headlines %}
+                                    {% if forloop.counter0 == 2 %}
+                                    <span class="post-date">June 20, 2018</span>
+                                    <a href="#" class="post-title">{{headline}}</a>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+                            <!-- Single Blog Post Area -->
+                            <div class="single-blog-post style-1" data-animation="fadeInUpBig" data-delay="500ms" data-duration="1000ms">
+                                <!-- Blog Thumbnail -->
+                                <div class="blog-thumbnail bg-overlay">
+                                    {% for image in images %}
+                                    {% if forloop.counter0 == 6 %}
+                                    <a href="#"><img src={{image}} alt=""></a>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+
+                                <!-- Blog Content -->
+                                <div class="blog-content">
+                                     {% for headline in headlines %}
+                                    {% if forloop.counter0 == 6 %}
+                                    <span class="post-date">June 20, 2018</span>
+                                    <a href="#" class="post-title" >{{headline}}</a>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Slide -->
+            <div class="single-slide">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- Single Blog Post Area -->
+                        <div class="col-12 col-md-6">
+                            <div class="single-blog-post style-1" data-animation="fadeInUpBig" data-delay="100ms" data-duration="1000ms">
+                                <!-- Blog Thumbnail -->
+                                <div class="blog-thumbnail bg-overlay">
+                                        {% for image in images %}
+                                    {% if forloop.counter0 == 3 %}
+
+                                    <a href="#"><img src={{image}} alt=""></a>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+
+                                <!-- Blog Content -->
+                                <div class="blog-content">
+                                     {% for headline in headlines %}
+                                    {% if forloop.counter0 == 3 %}
+                                    <span class="post-date">June 20, 2018</span>
+                                    <a href="#" class="post-title">{{headline}}</a>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <!-- Single Blog Post Area -->
+                            <div class="single-blog-post style-1 mb-30" data-animation="fadeInUpBig" data-delay="300ms" data-duration="1000ms">
+                                <!-- Blog Thumbnail -->
+                                <div class="blog-thumbnail bg-overlay">
+                                        {% for image in images %}
+                                    {% if forloop.counter0 == 4 %}
+                                    <a href="#"><img src={{image}} alt=""></a>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+
+                                <!-- Blog Content -->
+                                <div class="blog-content">
+                                      {% for headline in headlines %}
+                                    {% if forloop.counter0 == 4 %}
+                                    <span class="post-date">June 20, 2018</span>
+                                    <a href="#" class="post-title">{{headline}}</a>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            <!-- Single Blog Post Area -->
+                            <div class="single-blog-post style-1" data-animation="fadeInUpBig" data-delay="500ms" data-duration="1000ms">
+                                <!-- Blog Thumbnail -->
+                                <div class="blog-thumbnail bg-overlay">
+                                    {% for image in images %}
+                                    {% if forloop.counter0 == 5 %}
+                                    <a href="#"><img src={{image}} alt=""></a>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+
+                                <!-- Blog Content -->
+                                <div class="blog-content">
+                                    {% for headline in headlines %}
+                                    {% if forloop.counter0 == 5 %}
+                                    <span class="post-date">June 20, 2018</span>
+                                    <a href="#" class="post-title">{{headline}}</a>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>

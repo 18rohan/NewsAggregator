@@ -1,0 +1,22 @@
+row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#mainbox{
+  font-family: calibri;
+  box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+flex-wrap: wrap;
+}
+
+.grid-container {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
